@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>prism-loader demo</title>
+  </head>
+  <body>
+    <pre>
+      <code class="language-javascript">
+        import Sled from '@ianwalter/sled'
+
+        let sled
+
+        export default {
+          mounted () {
+            sled = new Sled(this.$refs.menu)
+          },
+          methods: {
+            toggleMenu: () => sled.toggle()
+          }
+        }
+      </code>
+    </pre>
+  </body>
+</html>

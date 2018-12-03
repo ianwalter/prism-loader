@@ -1,0 +1,24 @@
+{
+  "name": "@ianwalter/prism-loader",
+  "version": "0.0.0",
+  "description": "A Webpack loader that makes code blocks syntax highlightable using Prism",
+  "main": "index.js",
+  "repository": "git@github.com:ianwalter/prism-loader.git",
+  "author": "Ian Walter <public@iankwalter.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "prismjs": "^1.15.0",
+    "rehype": "^7.0.0",
+    "rehype-prism": "^0.0.2"
+  },
+  "devDependencies": {
+    "@ianwalter/callback-loader": "^1.0.1",
+    "jest": "^23.6.0",
+    "memory-fs": "^0.4.1",
+    "np": "^3.0.4",
+    "webpack": "^4.26.1"
+  }
+}

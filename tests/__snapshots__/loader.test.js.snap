@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`loader adds syntax highlighting HTML 1`] = `
+"<!doctype html><html><head>
+    <title>prism-loader demo</title>
+  </head>
+  <body>
+    <pre>      <code class=\\"language-javascript\\">
+        <span class=\\"token keyword\\">import</span> Sled <span class=\\"token keyword\\">from</span> <span class=\\"token string\\">'@ianwalter/sled'</span>
+
+        <span class=\\"token keyword\\">let</span> sled
+
+        <span class=\\"token keyword\\">export</span> <span class=\\"token keyword\\">default</span> <span class=\\"token punctuation\\">{</span>
+          <span class=\\"token function\\">mounted</span> <span class=\\"token punctuation\\">(</span><span class=\\"token punctuation\\">)</span> <span class=\\"token punctuation\\">{</span>
+            sled <span class=\\"token operator\\">=</span> <span class=\\"token keyword\\">new</span> <span class=\\"token class-name\\">Sled</span><span class=\\"token punctuation\\">(</span><span class=\\"token keyword\\">this</span><span class=\\"token punctuation\\">.</span>$refs<span class=\\"token punctuation\\">.</span>menu<span class=\\"token punctuation\\">)</span>
+          <span class=\\"token punctuation\\">}</span><span class=\\"token punctuation\\">,</span>
+          methods<span class=\\"token punctuation\\">:</span> <span class=\\"token punctuation\\">{</span>
+            toggleMenu<span class=\\"token punctuation\\">:</span> <span class=\\"token punctuation\\">(</span><span class=\\"token punctuation\\">)</span> <span class=\\"token operator\\">=></span> sled<span class=\\"token punctuation\\">.</span><span class=\\"token function\\">toggle</span><span class=\\"token punctuation\\">(</span><span class=\\"token punctuation\\">)</span>
+          <span class=\\"token punctuation\\">}</span>
+        <span class=\\"token punctuation\\">}</span>
+      </code>
+    </pre>
+  
+
+</body></html>"
+`;
