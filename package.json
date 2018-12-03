@@ -1,6 +1,6 @@
 {
   "name": "@ianwalter/prism-loader",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A Webpack loader that makes code blocks syntax highlightable using Prism",
   "main": "index.js",
   "repository": "git@github.com:ianwalter/prism-loader.git",
