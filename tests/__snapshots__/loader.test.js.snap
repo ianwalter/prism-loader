@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`loader adds syntax highlighting HTML 1`] = `
-"<!doctype html><html><head>
+"<!doctype html>
+<html>
+  <head>
     <title>prism-loader demo</title>
     <style>
       pre {
@@ -33,7 +35,8 @@ exports[`loader adds syntax highlighting HTML 1`] = `
   </head>
   <body>
 
-    <pre>      <code class=\\"language-javascript\\">
+    <pre>
+      <code class=\\"language-javascript\\">
         <span class=\\"token keyword\\">const</span> Sled <span class=\\"token operator\\">=</span> <span class=\\"token function\\">require</span><span class=\\"token punctuation\\">(</span><span class=\\"token string\\">'@ianwalter/sled'</span><span class=\\"token punctuation\\">)</span>
         <span class=\\"token keyword\\">const</span> sled <span class=\\"token operator\\">=</span> <span class=\\"token keyword\\">new</span> <span class=\\"token class-name\\">Sled</span><span class=\\"token punctuation\\">(</span><span class=\\"token global\\">document</span><span class=\\"token punctuation\\">.</span><span class=\\"token method function\\">querySelector</span><span class=\\"token punctuation\\">(</span><span class=\\"token string\\">'#myEl'</span><span class=\\"token punctuation\\">)</span><span class=\\"token punctuation\\">)</span>
 
@@ -50,7 +53,8 @@ exports[`loader adds syntax highlighting HTML 1`] = `
       </code>
     </pre>
 
-    <pre>      <code class=\\"language-javascript\\">
+    <pre>
+      <code class=\\"language-javascript 'test'\\">
         <span class=\\"token keyword\\">import</span> Sled <span class=\\"token keyword\\">from</span> <span class=\\"token string\\">'@ianwalter/sled'</span>
 
         <span class=\\"token keyword\\">let</span> sled
@@ -66,7 +70,7 @@ exports[`loader adds syntax highlighting HTML 1`] = `
       </code>
     </pre>
 
-  
-
-</body></html>"
+  </body>
+</html>
+"
 `;
