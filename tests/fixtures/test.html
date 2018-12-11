@@ -2,8 +2,54 @@
 <html>
   <head>
     <title>prism-loader demo</title>
+    <style>
+      pre {
+        color: #f8f8f2;
+        font-size: 1.125rem;
+        background: #282a36;
+      }
+      .token.operator,
+      .token.keyword {
+        color: #ff79c6;
+      }
+      .token.string {
+        color: #f1fa8c;
+      }
+      .token.comment {
+        color: #6272a4;
+      }
+      .token.global {
+        color: #bd93f9;
+      }
+      .token.function {
+        color: #50fa7b;
+      }
+      .token.class-name,
+      .token.function.method {
+        color: #8be9fd;
+      }
+    </style>
   </head>
   <body>
+
+    <pre>
+      <code class="language-javascript">
+        const Sled = require('@ianwalter/sled')
+        const sled = new Sled(document.querySelector('#myEl'))
+
+        function getHeight () {
+          console.log('ENTER')
+          return '100px'
+        }
+
+        // Slide to a specific height:
+        sled.slide(getHeight())
+
+        // Toggle between 0 height and the elements natural height.
+        sled.toggle()
+      </code>
+    </pre>
+
     <pre>
       <code class="language-javascript">
         import Sled from '@ianwalter/sled'
@@ -20,5 +66,6 @@
         }
       </code>
     </pre>
+
   </body>
 </html>
