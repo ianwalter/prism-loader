@@ -1,9 +1,9 @@
-const { join } = require('path')
+import { join } from 'path'
+import test from 'ava'
+import webpack from 'webpack'
+import MemoryFileSystem from 'memory-fs'
 
-const webpack = require('webpack')
-const MemoryFileSystem = require('memory-fs')
-
-test('loader adds syntax highlighting HTML', done => {
+test.cb('loader adds syntax highlighting HTML', t => {
   const compiler = webpack({
     entry: join(__dirname, 'fixtures/test.html'),
     module: {
@@ -14,9 +14,9 @@ test('loader adds syntax highlighting HTML', done => {
             {
               loader: '@ianwalter/callback-loader',
               options: {
-                callback: function (content) {
-                  expect(content).toMatchSnapshot()
-                  done()
+                callback: content => {
+                  t.snapshot(content)
+                  t.end()
                 }
               }
             },
