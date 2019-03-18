@@ -5122,10 +5122,10 @@ rehype-parse@^6.0.0:
     parse5 "^5.0.0"
     xtend "^4.0.1"
 
-rehype-prism@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/rehype-prism/-/rehype-prism-0.0.2.tgz#8b894fde7b0d6c43fcd2463ced5fcc0311014cf3"
-  integrity sha512-Vwp1tMbcWdro2G41Fh6jU/CSy/4qHKCbombh+UYxHeyTWvOIVFxKbLESEn5fAzfPnwfqH+bxBHoBZKOY3ww4+A==
+rehype-prism@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/rehype-prism/-/rehype-prism-0.1.1.tgz#298a627eeb126723ff42726b9c0bb63a807e12dc"
+  integrity sha512-Tz1Qt36ZvMltzzo3UADGZeioWPhsdstKhklbaQzKBNUneZTY0AAjdgqqf374DbVzIqrg8WSI90Dj2UjonbPqSQ==
   dependencies:
     prismjs "^1.15.0"
     rehype-parse "^6.0.0"

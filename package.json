@@ -15,7 +15,7 @@
     "@starptech/rehype-webparser": "^0.8.10",
     "hast-util-to-html": "^5.0.0",
     "prismjs": "^1.15.0",
-    "rehype-prism": "^0.0.2",
+    "rehype-prism": "^0.1.1",
     "unified": "^7.0.2"
   },
   "devDependencies": {
