@@ -25,7 +25,7 @@
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "memory-fs": "^0.4.1",
-    "np": "^4.0.2",
+    "np": "^5.0.0",
     "webpack": "^4.26.1",
     "webpack-cli": "^3.1.2"
   },
