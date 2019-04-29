@@ -402,37 +402,37 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
-"@starptech/hast-util-from-webparser@^0.8.17":
-  version "0.8.17"
-  resolved "https://registry.yarnpkg.com/@starptech/hast-util-from-webparser/-/hast-util-from-webparser-0.8.17.tgz#0460ed962d6b2dcba767622e47483feb40e9cc96"
-  integrity sha512-zj5+X2qQltKbI+uYNz1DmkvVGnzZ/2XJOtWqeqeYrhDOtkEFbousifaFMCdTxvwFmGe/WusrO7rV6KtjqhDRjA==
+"@starptech/hast-util-from-webparser@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@starptech/hast-util-from-webparser/-/hast-util-from-webparser-0.9.0.tgz#ae3e8ad0f02d1b9562457e5b508973633a1f5973"
+  integrity sha512-evqGr0KOXB27vu/KiNv6gmd/ggygzwYvINVsCWF6GAd1SFQNS4Vz2wv4tmiktX6rcr6Qq+jBwVXvVwe60d5Z3g==
   dependencies:
-    "@starptech/prettyhtml-hastscript" "^0.8.17"
-    "@starptech/webparser" "^0.8.17"
+    "@starptech/prettyhtml-hastscript" "^0.9.0"
+    "@starptech/webparser" "^0.9.0"
     property-information "^5.0.1"
 
-"@starptech/prettyhtml-hastscript@^0.8.17":
-  version "0.8.17"
-  resolved "https://registry.yarnpkg.com/@starptech/prettyhtml-hastscript/-/prettyhtml-hastscript-0.8.17.tgz#7827b7c03392c337736d3364d83daadcc6430925"
-  integrity sha512-MP3/gjrzxcKQEVYv+IxRbRZ6vhCAePUQ5BzkrkBvRM3fZwXMo5ZrnBf06Nq5JuNf/sgMv0hKoOkXbx0E3uiNkg==
+"@starptech/prettyhtml-hastscript@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@starptech/prettyhtml-hastscript/-/prettyhtml-hastscript-0.9.0.tgz#a51d248892df084864a7a2b84ffa7ce586dbfece"
+  integrity sha512-ifXB3oqZl5LMMaFuQvfUYF0e+XdGDeQoIzFQYdA59cJ+RgjGdsjgFMmvkW+kxZwMWRYyAsLsYuJ19UfIWO8ymQ==
   dependencies:
     comma-separated-tokens "^1.0.5"
-    hast-util-parse-selector "^2.2.0"
+    hast-util-parse-selector "^2.2.1"
     property-information "^5.0.1"
     space-separated-tokens "^1.1.2"
 
-"@starptech/rehype-webparser@^0.8.10":
-  version "0.8.17"
-  resolved "https://registry.yarnpkg.com/@starptech/rehype-webparser/-/rehype-webparser-0.8.17.tgz#8b6c0d77719cb595d3e4a441aab6aba94ceac6d1"
-  integrity sha512-8GklGO1DSCyFqQKl8ZyL0mu3LDIc3DN1w8vj28EYxUinAGUWCGyaimC7QDyvs4hK75XM1NddPzR0fFBlBOXn1g==
+"@starptech/rehype-webparser@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@starptech/rehype-webparser/-/rehype-webparser-0.9.0.tgz#afa5bcd4eedba9f6b3324d545494ebadf629bee7"
+  integrity sha512-Ndv/excuCjdRIUWtzD5YQMvuZudMvjtYmNhLllzYEzMq6+nkPrhaORuUNihDG1SYZI260CXV1khDTGqPc581Yg==
   dependencies:
-    "@starptech/hast-util-from-webparser" "^0.8.17"
-    "@starptech/webparser" "^0.8.17"
+    "@starptech/hast-util-from-webparser" "^0.9.0"
+    "@starptech/webparser" "^0.9.0"
 
-"@starptech/webparser@^0.8.17":
-  version "0.8.17"
-  resolved "https://registry.yarnpkg.com/@starptech/webparser/-/webparser-0.8.17.tgz#ac02e4d7f97a2922ff7d8754c1a357d25997fae5"
-  integrity sha512-St95Jolws0W5NVB+OS0w84Tgu9BHlb+JPltSWD4lDwVIwv7x1lVHdat52AwHQdHPzUY2xGOz1g7Gdb5jSTTk3A==
+"@starptech/webparser@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@starptech/webparser/-/webparser-0.9.0.tgz#7b2a1e554001381bc3b0b8eb7d21fc6a020c6766"
+  integrity sha512-QEC1yjpsOtj3leNCWZGirAyVCN7WJDH+rUhfMVGQuLEfoJNKK66t/UWAOrXeGxR2jdU5IffAGnqZIHbFMX6SNw==
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
@@ -2893,7 +2893,7 @@ hast-util-is-element@^1.0.0:
   resolved "https://registry.yarnpkg.com/hast-util-is-element/-/hast-util-is-element-1.0.2.tgz#c23c9428b6a5a4e323bf9e16f87417476314981b"
   integrity sha512-4MEtyofNi3ZunPFrp9NpTQdNPN24xvLX3M+Lr/RGgPX6TLi+wR4/DqeoyQ7lwWcfUp4aevdt4RR0r7ZQPFbHxw==
 
-hast-util-parse-selector@^2.2.0:
+hast-util-parse-selector@^2.2.0, hast-util-parse-selector@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/hast-util-parse-selector/-/hast-util-parse-selector-2.2.1.tgz#4ddbae1ae12c124e3eb91b581d2556441766f0ab"
   integrity sha512-Xyh0v+nHmQvrOqop2Jqd8gOdyQtE8sIP9IQf7mlVDqp924W4w/8Liuguk2L2qei9hARnQSG2m+wAOCxM7npJVw==
